@@ -1,7 +1,7 @@
 {
   "name": "react-native-queue",
-  "version": "1.2.1",
-  "description": "A React Native Job Queue",
+  "version": "0.0.1",
+  "description": "A React Native Job Queue for REALM V6",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --coverage && if [ \"$COVERALLS_ENV\" = \"production\" ]; then cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js; fi",
@@ -27,7 +27,7 @@
   "dependencies": {
     "promise-reflect": "^1.1.0",
     "react-native-uuid": "^1.4.9",
-    "realm": "^5.0.0"
+    "realm": "^6.1.8"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.3",
