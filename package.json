@@ -1,7 +1,7 @@
 {
   "name": "react-native-queue",
-  "version": "1.2.1",
-  "description": "A React Native Job Queue",
+  "version": "0.0.1",
+  "description": "A React Native Job Queue for Realm 6",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jest --coverage && if [ \"$COVERALLS_ENV\" = \"production\" ]; then cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js; fi",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/billmalarky/react-native-queue.git"
+    "url": "git+https://github.com/danielbcarvalho/react-native-queue"
   },
   "keywords": [
     "react",
